@@ -18,9 +18,13 @@
 ![VS Code Installer](images/vscode-installer1.png)
 
 6.	Check all the boxes then hit Next
+
+![VS Code Installer](images/vscode-installer2.png)
  
 7.	Click Install then finished, when the installation is complete
- 
+
+![VS Code Installer](images/vscode-installer3.png)
+
 Install Git
 1.	Go to [Download git got Windows](https://git-scm.com/download/win) and click on the 64-bit for Windows Setup
 2.	Double click on the installer in your Downloads folder
