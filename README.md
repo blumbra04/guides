@@ -15,7 +15,7 @@
 4.	Follow the installer prompts as follows:
 5.	Click Accept, then Next. 
 
-![VS Code Installer](images\vscode-installer1.png)
+![VS Code Installer](images/vscode-installer1.png)
 
 6.	Check all the boxes then hit Next
  
