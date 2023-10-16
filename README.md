@@ -19,11 +19,11 @@
 
 6.	Check all the boxes then hit Next
 
-![VS Code Installer](images/vscode-installer2.png)
+    ![VS Code Installer](images/vscode-installer2.png)
  
 7.	Click Install then finished, when the installation is complete
 
-![VS Code Installer](images/vscode-installer3.png)
+    ![VS Code Installer](images/vscode-installer3.png)
 
 Install Git
 1.	Go to [Download git got Windows](https://git-scm.com/download/win) and click on the 64-bit for Windows Setup
@@ -35,55 +35,55 @@ Install Git
     - Type in you pin
 5.	On the information page click Next
 
-![git Code Installer](images/git-installer1.png)
+    ![git Code Installer](images/git-installer1.png)
  
 6.	Keep all default checkboxes and click Next
 
-![git Code Installer](images/git-installer2.png)
+    ![git Code Installer](images/git-installer2.png)
  
 7.	In the dropdown, select Visual Studio Code as Git’s default editor
 
-![git Code Installer](images/git-installer3.png)
+    ![git Code Installer](images/git-installer3.png)
  
 8.	Choose Let git decide and click Next
 
-![git Code Installer](images/git-installer4.png)
+    ![git Code Installer](images/git-installer4.png)
  
 9.	Us the recommended Git from the command line and from 3rd-party software
 
-![git Code Installer](images/git-installer5.png)
+    ![git Code Installer](images/git-installer5.png)
 
 10.	Click Use bundled OpenSSH
 
-![git Code Installer](images/git-installer6.png) 
+    ![git Code Installer](images/git-installer6.png) 
 
 11.	Click use the OpenSSL library
 
-![git Code Installer](images/git-installer7.png) 
+    ![git Code Installer](images/git-installer7.png) 
 
 12.	Click Checkout Windows-styl, commit Unix-style line endings
 
-![git Code Installer](images/git-installer8.png) 
+    ![git Code Installer](images/git-installer8.png) 
 
 13.	Click Use MinTTY
  
-![git Code Installer](images/git-installer9.png)
+    ![git Code Installer](images/git-installer9.png)
 
 14.	Click Default
 
-![git Code Installer](images/git-installer10.png) 
+    ![git Code Installer](images/git-installer10.png) 
 
 15.	Click Git Credential Manager
 
-![git Code Installer](images/git-installer11.png)
+    ![git Code Installer](images/git-installer11.png)
 
 16.	Click Enable file system caching
 
-![git Code Installer](images/git-installer12.png)
+    ![git Code Installer](images/git-installer12.png)
 
 17.	Click install
 
-![git Code Installer](images/git-installer13.png) 
+    ![git Code Installer](images/git-installer13.png) 
 
 ## Sign up for a GitHub Account
 1.	Go to GitHub.com and create an account with you DOT email (Make sure it’s a private account!)
@@ -93,7 +93,7 @@ Install Git
 2.	Make sure you are in your User directory C:\Users\your_user_name directory by typing the command cd  C:\Users\your_user_name
 3.	Type in the following command ssh-keygen -o -t rsa -C “your email address”
  
-![SSH Key Generator](images/ssh-key-script1.png)
+    ![SSH Key Generator](images/ssh-key-script1.png)
 
 4.	You can choose to have a password or just hit enter for no password
  - Note: when you have a password you will need to enter it in again whenever you try to import the key, so do not lose your password or you will need to create new keys
@@ -109,7 +109,7 @@ Install Git
 7.	Go back to your GitHub Add new SSH Key page
 8.	Paste the Key in the box labeled Key
 
-![Import SSH to GitHub](images/import-ssh-key1.png)
+    ![Import SSH to GitHub](images/import-ssh-key1.png)
 
 9.	Give it a title (anything you want)
 10.	Click Add SSH Key (this is where you may be prompted for the password you used to create the SSH keys.
@@ -124,7 +124,7 @@ Install Git
 3.	Make sure the SSH header is selected
 4.	Copy the SSH link
 
-![Clone GitHub Repo](images/clone_github_repo1.png)
+    ![Clone GitHub Repo](images/clone_github_repo1.png)
 
 5.	Go to Visual Studio Code
 6.	Hit ctrl+shift+p and search for Git:Clone
@@ -141,7 +141,7 @@ Install Git
     - For example, I am going to make a comment “This is a push test” in one of my python documents
 3.	Save the file you made a change to. 
 
-![SSH Key Generator](images/push_github_repo1.png) 
+    ![SSH Key Generator](images/push_github_repo1.png) 
 
 4.	The file turned yellow and there is notification in you source control. Click on the source control notification
 5.	If you scroll over the changes, there should be a + sign you can click to stage the changes
@@ -149,18 +149,18 @@ Install Git
 7.	You can choose to commit straight to your main branch or another branch under main
     - Note: unless you are working with a bunch of people on one project, it’s likely you’ll just commit to main
 
-![SSH Key Generator](images/push_github_repo2.png) 
+    ![SSH Key Generator](images/push_github_repo2.png) 
 
 8.	A COMMIT_EDITMSG will appear in a new window. Put a short comment like “testing a push change to GitHub”
 
-![SSH Key Generator](images/push_github_repo3.png) 
+    ![SSH Key Generator](images/push_github_repo3.png) 
 
 9.	Click the check mark all the way in the upper right on the VS Code window
 10.	A prompt will as you to save, click Save
 11.	The final step is the hit the Sync Changes button that replaced the Commit button
     - Note: this will sync up your workstation and GitHub
 
-![SSH Key Generator](images/push_github_repo4.png)  
+    ![SSH Key Generator](images/push_github_repo4.png)  
 
 12.	After the sync is compete, navigate to your repo on GitHub. You should see the change you made and the code on GitHub and the cloned repo should match. 
 
